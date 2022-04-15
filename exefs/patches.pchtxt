@@ -1,0 +1,46 @@
+@nsobid-1729DD426870976B4EE94A34BBCFF766
+#Splatoon 2 - Version 5.5.0
+
+@flag offset_shift 0x0
+#~~Main Patch~~
+//Custom Splatfest Patches [S2CS Team]
+@enabled
+01497B84 C0035FD6
+01497BA4 20008052C0035FD6
+01365790 20008052
+00376EB8 20008052
+00376E80 20008052
+0036AE64 20008052
+
+//Don't show news
+@enabled
+0114D0C4 00008052C0035FD6
+
+//Save Game on LAN Match [Custom Splatfest Patch]
+@enabled
+01365790 20008052
+
+//Fix MatchingSave [Custom Splatfest Patch]
+@enabled
+00376EB8 20008052
+00376E80 20008052
+0036AE64 20008052
+
+// One Player Private Battles [OatmealDome]
+@enabled
+00371F78 1F2003D51F2003D509000014
+00379438 1F2003D51F2003D509000014
+014C1DE8 21008052
+014DF0D0 1F2003D5
+014DFC14 21008052
+
+#~~Extras~~
+@flag offset_shift 0x100
+
+// No Map Error [Zewia]
+@enabled
+00376BF0 09000014
+
+// Seeker [Haxxie]
+@enabled
+00478410 01000014
